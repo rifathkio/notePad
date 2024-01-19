@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title id="title">1 Note Pade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  Date: <input oninput="setstoreg()" placeholder="date" class="inputbox" type="text" id="date">
+  <br>
+  <textarea oninput="savetitle()" placeholder="Note Tittle" title="This is input your Note Title" class="inputbox1" id="title"></textarea>
+  <br>
+  <textarea placeholder="Tap to type your Note" oninput="onnote()" class="inputbox2" id="note"></textarea>
+  <script src="app.js"></script>
+</body>
+</html>
