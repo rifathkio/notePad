@@ -38,6 +38,7 @@ var titleData =  document.getElementById("title5").value;
 function logger() {
   var rust = localStorage.getItem('title');
  document.getElementById("title5").value = rust;
+var titleData = document.getElementById("title");
 
 }
 logger();
